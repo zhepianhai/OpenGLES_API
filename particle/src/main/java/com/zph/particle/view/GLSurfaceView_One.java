@@ -21,9 +21,9 @@ public class GLSurfaceView_One extends GLSurfaceView{
     private void initvar() {
     }
 
-    public void setRenderer(MyRenderer_One myRendererOne){
+    public void setRenderers(MyRenderer_One myRendererOne){
         this.myRendererOne=myRendererOne;
-        super.setRenderer(this.myRendererOne);
+        setRenderer(this.myRendererOne);
     }
 
 
